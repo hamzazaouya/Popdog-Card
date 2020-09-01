@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.games {
+    height: 100vh;
+    width: 100%;
+    background-color: #0d1113;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-info {
+    position: relative;
+    height: 480px;
+    width: 300px;
+    border-radius: 1rem;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) , url(../img/ca.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.more-info .content {
+    background-color: #24282a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.more-info .content h1 {
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.onlines {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #FFF;
+}
+
+.onlines > span {
+    display: block;
+    height: 2.35rem;
+    width: 1px;
+    background-color: #FFF;
+}
+
+.onlines .members span {
+    display: block;
+    text-align: center
+}
+
+.content button {
+    display: block;
+    margin: 0 auto;
+    background: none;
+    color: #FFF;
+    border: none;
+    height: 2rem;
+    width: 60%;
+    border-radius: 2rem;
+    background-color: #3a86f9;
+}
+
+.stremers {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stremer {
+    width: 4rem;
+    text-align: center;
+    color: #FFF;
+}
+
+.stremer-img {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    background: url(../img/1.jpg) no-repeat center / cover;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: .2rem;
+}
+
+.stremer-img span {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.stremer h5 {
+    font-size: .8rem;
+}
+
+.stremer span {
+    font-size: .7rem;
+}
